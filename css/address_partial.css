@@ -1,0 +1,117 @@
+.section__mounting {
+    background-image: url(../img/mountains.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    min-height: 578px;
+    margin: 0 auto;
+    padding: 0px 40px 5px 40px;
+}
+.mounting__container{
+    display: grid;
+    margin: auto;
+    text-align: center;
+    grid-gap: 29px;
+    max-width: 1170px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.section__column{
+    background-color: black;
+    opacity: 0.7;
+    height: 328px;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 370px;
+    coo: --header-text-colour;
+}
+.mounting__invintation-info,
+.mounting__column-address-container,
+.address-tolbugata {
+    color: var( --header-text-colour);
+    white-space: nowrap;
+    line-height: 0.2px;
+    margin-top: 30px;
+}
+
+.mounting__column-address {
+    color: var( --header-text-colour);
+    white-space: nowrap;
+    line-height: 0.2px;
+    margin-top: 30px;
+    text-decoration: underline;
+    transition: 300ms ease-in-out;
+}
+.addres-tolbugata{
+    color: var(--ui-caption-color-light);
+    text-decoration: none;
+}
+
+.mounting__column-icon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.mounting__column-address:hover {
+    cursor: pointer;
+}
+
+.addres-tolbugata:hover{
+    cursor:auto;
+}
+
+.mounting__invintation-info {
+    font-size: 25px;
+}
+
+@media (max-width:1280px) {
+    .section__column{
+        max-width: 353px;
+        width: 353px;
+    }
+}
+@media (max-width:1215px) {
+    .mounting__container{
+        width: 100%;
+    }
+    .section__column{
+    width: 100%; 
+    min-width: 00px;
+    }
+}
+@media (max-width:990px) {
+    .mounting__container{
+        width: 100%;
+        grid-template-columns: 2fr 400px; 
+        text-align: center;
+        grid-gap: 10px;
+    }
+    .section__column{
+    width: 100%;
+     max-width: 500px; 
+    }
+}
+@media (max-width:990px) {
+    .mounting__container{
+        width: 100%;
+        grid-template-columns: 2fr 50%;
+    }
+    .section__column{
+        width: 100%;
+        }
+}
+@media (max-width:767px) {
+    .mounting__container{
+        grid-template-columns: inherit;
+        width: 100%;
+        justify-items: center;
+    }
+    .section__column{
+        width: 100%;
+        max-width: none;
+        }
+}

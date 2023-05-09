@@ -1,0 +1,163 @@
+ .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0px;
+    width: 100%;
+    position: relative;
+    max-width: none;
+    min-width: 320px;
+    height: auto;
+}
+
+.test__cap {
+    display: flex;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.test__exp {
+    color: #505155;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 46.8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.17px;
+    margin-top: 20px;
+}
+.test__exp__toptext {
+    color: rgb(80, 81, 85);
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.3px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.test__cap__line {
+    color: rgb(80, 81, 85);
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.2px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.carousel-indicators {
+    position: static;
+    margin-top: 10px; 
+}
+/*.test__alice-hand,
+.test__lili-forest,
+.test__cole-tiers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-top: 50px;
+}
+
+.test__lili-forest__photo,
+.test__alice-hand__photo,
+.test__cole-tiers__photo {
+    display: flex;
+    flex-shrink: 0;
+    border-style: hidden;
+    height: 120px;
+    width: 120px;
+    border-image-width: 1;
+    text-align: center;
+    border-radius: 50%;
+}
+
+*/ .test__alice-hand__name,
+.test__lili-forest__name,
+.test__cole-tiers__name {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 33.6px;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+.test__alice-hand__text,
+.test__lili-forest__text,
+.test__cole-tiers__text {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    line-height: 28.9px;
+    letter-spacing: 0.51px;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.test__alice-hand__date,
+.test__lili-forest__date,
+.test__cole-tiers__date {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 10px;
+    color: rgb(80, 81, 85);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: normal;
+    position: relative;
+    height: auto;
+}
+/*
+.test__carousel-caption-css {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.test__lili-forest__photo,
+.test__alice-hand__photo,
+.test__cole-tiers__photo {
+    display: flex;
+    border-style: hidden;
+    height: 120px;
+    width: 120px;
+    max-width: 120px;
+    border-image-width: 1;
+    text-align: center;
+    align-item: center;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+
+.carousel-indicators__css {
+    display: flex;
+    margin-top: 2rem;
+    border-bottom: 0px;
+    max-height: 8px;
+}
+*/

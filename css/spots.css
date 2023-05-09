@@ -1,0 +1,242 @@
+.spots {
+    background-color: var(--ui-dark-shade-color);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.spots__title {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.spots__title-main {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--spots-text-color);
+}
+
+.spots__title-subtitle {
+    color: var(--ui-block-title-color-light);
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+}
+
+.spots__title-partsubtitle {
+    color: var(--ui-dark-accent-color);
+    font-family: 'Playfair Display';
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+}
+
+.spots__title-text{
+    display: block;
+    color: var(--spots-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.51px;
+    margin-top: 20px;
+    width: auto;
+}
+
+.carousel__inner-slide-icon {
+    height: 315px;
+    width: 352px;
+    object-fit: cover;
+    margin: 16px;
+}
+
+
+.spots__carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    position: relative;
+}
+
+.spots__carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.spots__carousel-prev {
+    transform: rotate(180deg);
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    border: 0px;
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+  
+.spots__carousel-next {
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    width: 28px;
+    height: 29px;
+    border: 0px;
+    padding: 5px;
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+.spots__carousel-next:hover {
+    background-color: rgb(202, 202, 202);
+}
+  
+.spots__carousel-prev:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.spots__carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #707070;
+    border: 0px solid #707070;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.spots__carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.spots__carousel-dot--active {
+    background-color: #fff;
+}
+
+
+.quote {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.quote-svg {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.quote__text-main {
+    font-family: 'Playfair Display';
+    color: var(--ui-block-title-color-light);
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    letter-spacing: normal;
+    line-height: 33.84px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.quote__text-name {
+    color: var(--spots-text-color);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container1:before,
+.container1:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    background-color: var(--spots-text-color);
+    position: initial;
+    opacity: 0.2;
+    top: 50%;
+}
+
+.container1:before {
+    margin-right: 15px;
+}
+
+.container1:after {
+    margin-left: 15px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container2:before,
+.container2:after {
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: var(--spots-text-color);
+    position: initial;
+    opacity: 0.2;
+    top: 50%;
+}
+
+@media (max-width: 404px) {
+    .spots__title {
+        min-width: unset;
+        max-width: unset;
+    }
+    
+    .spots__title-subtitle,
+    .spots__title-partsubtitle {
+        font-size: 28px;
+    }
+    
+    .spots__title-partsubtitle {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .quote {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .spots__carousel {
+        max-width: 1200px;
+    }
+
+    .spots__title {
+        max-width: 1200px;
+    }
+
+    .spots__title-text {
+        max-width: 800px;
+    }
+}

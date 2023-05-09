@@ -1,0 +1,225 @@
+.places {
+    display: block;
+    width: 100%;
+    padding: 60px 0px 90px;
+    color: var(--ui-dark-accent-color);
+}
+
+.divider {
+    color: var(--divider);
+}
+
+.places__inner {
+    max-width: 1170px;
+    padding: 0px 24px 0px 24px;
+    margin: 0px auto;
+}
+
+.places__title {
+    font-size: 12px;
+    color: var(--main-title_without_picture);
+    width: 100%;
+}
+
+.places__where-go {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+/*Navigation menu style block*/
+
+.places-nav-tab {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid var(--ui-strong-dark-color);
+    overflow-x: auto;                                                                 /*make horizpntal scroll in navigation menu*/
+    overflow-y: hidden;
+}
+
+
+.places-nav-item {
+    display: inline-block;                                   
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+.places-nav-item a {
+    white-space: nowrap;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.places-nav-item::-webkit-scrollbar {                                         /*horizontal scroller size*/
+    width: 10px;
+    height: 3px;
+}
+
+.places-nav-item.active {
+    border-bottom: 3px solid var(--divider);                                  /*only in active link in navigation panel */
+}
+
+.places-nav-item::-webkit-scrollbar-thumb {
+    background-color: var(--main-background-color);
+}
+
+.places-nav-item:hover::-webkit-scrollbar-thumb {                             /*horizontal scroller color when we use it*/
+    background-color: var(--ui-dark-accent-color);
+}
+
+.places-nav-link {                                                            /*text color in navigation links*/
+    z-index: 100;
+    color: var(--ui-dark-accent-color);
+}
+
+.tab-content {
+    padding-top: 30px;
+}
+
+
+
+
+
+/*Tab-content block*/
+
+.places-item {
+    display: none;
+}
+
+.places-item.active {
+    display: block;
+}
+
+.places__content {
+    margin-top: 45px;
+}
+
+.city-photo {
+    width: 100%;
+    height: 65%;
+    min-width: 272px;
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 65%;
+}
+
+.city__hotel-info img {
+    width: 20px;
+    height: 24px;
+}
+
+.places__cities__city img {
+    width: 100%;
+}
+
+.tab-pane .city {
+    padding: 39px 43px;
+}
+
+.city-point {
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    line-height: 19.2px;
+}
+
+.city__main-info {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 39.9px;
+    max-width: 100%;
+}
+
+.city__nights-quantity {
+    color: var(--divider);
+    font-size: 19px;
+    line-height: 32.3px;
+    font-weight: 700;
+}
+
+.city__hotel-name {
+    color: var(--ui-strong-dark-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+}
+
+.city__hotel-info {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+}
+
+.city__hotel-info{
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.city__hotel-info_item{
+    display: flex;
+}
+
+.city__hotel-info img {
+    height: 24px;
+    width: 20px;
+    line-height: 28.9px;
+    margin-right: 10px;
+}
+
+a.city__button-book {
+    display: inline-block;
+    margin-top: 55px 10px 10px 10px;
+    padding: 14px 20px 14px 20px;
+    background-color: var(--color-book-now-button);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--ui-text-color-light);
+    text-decoration: none;
+}
+
+a.city__button-book:hover {
+    background-color: var(--ui-dark-shade-color);
+}
+
+
+
+@media screen and (min-width: 768px){
+    .city-photo, .city {
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+        box-sizing: border-box;
+    }
+
+    .city-photo {
+        margin-right: 15px;
+    }
+
+    .tab-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .places__inner {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .oslo, .trondheim, .bode, .lofoten-islands, .tromse {
+        padding-top: 55%;
+    }
+}

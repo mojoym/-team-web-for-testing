@@ -1,0 +1,263 @@
+.contact-form__background-image {
+  background-attachment: fixed;
+  margin: auto;
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-position: 100%;
+  background-image: url(../img/join_us_background.png);
+  background-size: cover;
+  display: flex;
+
+}
+
+.contact-form__h2 {
+  color: rgba(167, 167, 169, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.contact-form__h3 {
+  font-weight: 419px;
+  font-weight: 700;
+  font-size: 39px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-form__p {
+  min-width: 90px;
+  padding-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: rgba(167, 167, 169, 1);
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+
+.contact-form__border {
+  justify-content: center;
+  width: 50%; 
+  height: 699px;
+  padding: 0;
+  /* margin: auto; */
+  background-color: rgb(35, 36, 40);
+  background-size: auto;
+
+}
+
+.contact-form__name {
+  margin-top: 5%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 81%;
+  height: 45px;
+  background-color: rgb(45, 46, 52, 1);
+  border: none;
+  color: white
+}
+
+.contact-form__phone {
+  width: 81%;
+  height: 45px;
+  margin-top: 5%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(45, 46, 52, 0.8);
+  border: none;
+  color: white
+}
+
+.contact-form__email {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  width: 81%;
+  height: 45px;
+  background-color: rgb(45, 46, 52, 0.8);
+  margin-top: 5%;
+  border: none;
+}
+
+.contact-form__date {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(45, 46, 52, 0.8);
+  width: 81%;
+  height: 45px;
+  border: none;
+  color: white
+}
+
+.contact-form__accept-button {
+  background-color: rgb(20, 169, 238);
+  margin-top: 3%;
+  position: relative;
+  display: inline-block;
+  width: 81%;
+  height: 42px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+input:focus {
+  color: white;
+  outline: auto;
+  outline-color: rgb(59, 153, 252);
+}
+
+.blog-heading__line {
+  width: 10px;
+  height: 1px;
+  background-color: red;
+  margin-right: 4px;
+  margin-bottom: 2.3px;
+}
+
+.colorbash {
+  color: rgb(238, 46, 20);
+}
+
+::placeholder {
+  color: rgb(140, 140, 144, 1);
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-form__accept-button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+
+@media (max-width: 480px) {
+  .contact-form__name {
+    width: 80%;
+    height: 40px;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form__phone {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form__email {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form__date {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form__accept-button {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__name {
+    width: 80%;
+    height: 40px;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__phone {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__email {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__date {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__accept-button {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .contact-form__border {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    top: 130px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-form__border {
+    margin: auto;
+    display: flex;
+    top: 130px;
+    width: 90%;
+  }
+}
